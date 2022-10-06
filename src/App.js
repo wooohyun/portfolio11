@@ -1,12 +1,12 @@
 import './App.css';
-import CardEffect from './component/CardEffect';
+import CardDeck from './component/CardDeck';
 import CardSlider from './component/CardSlider';
 
 function App() {
   return (
     <div className='Wrap'>
-      <CardEffect />
       <CardSlider />
+      <CardDeck/>
     </div>
   );
 }
