@@ -1,0 +1,63 @@
+.header .container {
+    width: 1900px;
+    margin: 0 auto;
+}
+
+.topmenu {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.logo {
+    padding: 15px 0;
+}
+
+.mainmenu a {
+    line-height: 80px;
+}
+
+.mainmenu:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.mainmenu {
+    display: flex;
+    gap: 40px;
+}
+
+.mainmenu li {
+    position: relative;
+    margin-right: 5px;
+    width: 70px;
+}
+
+
+.mainmenu li:hover .submenu {
+    display: block;
+}
+
+.mainmenu .submenu {
+    display: none;
+    position: absolute;
+    left: -22px;
+    right: 0;
+    text-align: center;
+}
+
+.mainmenu .submenu a {
+    width: 100px;
+    display: block;
+    padding: 5px;
+    background: #666;
+    color: #fff;
+    line-height: 40px;
+}
+
+.gamestart {
+    line-height: 80px;
+}
