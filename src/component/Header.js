@@ -90,7 +90,10 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className='gamestart'>
-                        <button>GAME START</button>
+                        <button>
+                            <img src="./img/header_gamestart.png" alt="/" />
+                           <p> GAME START</p>
+                        </button>
                         {/* 눌렀을때 화면중앙 로그인후 이용해주세요 디테일 나중에 추가 */}
                     </div>
                 </div>
